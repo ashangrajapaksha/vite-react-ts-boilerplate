@@ -39,12 +39,12 @@ const Home: React.FC = () => {
         </button>
       </div>
 
-      {/* <h1 className="font-bold underline">User List</h1>
+      <h1 className="font-bold underline">User List</h1>
       <ul>
         {data.map((item) => (
           <li key={item.id}>{item.name}</li>
         ))}
-      </ul> */}
+      </ul>
     </div>
   );
 };
