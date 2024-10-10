@@ -36,15 +36,19 @@
 
 - **React**: A modern front-end JavaScript library for building user interfaces based on components.
 - **Vite**: A fast build tool and development server for modern web projects.
+- **vitest** : A blazing fast unit test framework powered by Vite.
 - **TypeScript**: A superset of JavaScript that adds static typing.
-- **TanStack Router** - Fully typesafe, modern and scalable routing for React applications
-- **React Hook Form**- Performant, flexible and extensible forms with easy-to-use validation
-- **ESLint**: A linter for identifying and fixing problems in your code.
+- **Docker**: Supports containerization for seamless deployment across different environments.
+- **Axios** : A promise-based HTTP client for making API requests.
+- **TanStack Router** - Fully typesafe, modern and scalable routing for React applications.
+- **Redux** - A state management tool for JavaScript apps that keeps your app’s state predictable and centralized, making it easier to manage and debug. It’s ideal for large or complex applications where state needs to be shared among many components.
+- **context api** - A simple React tool for sharing state across components without props. It’s great for state management in small or simple projects, such as single-page applications or basic components where a lightweight solution is sufficient.
 - **pnpm**: A fast and disk space-efficient package manager.
-- **husky** : Git hooks and commit linting to ensure use of descriptive and practical commit messages
-- **Prettier** : An opinionated code formatter
-- **Tailwind CSS** : A utility-first CSS framework packed with classes to build any web design imaginable
-- **vitest** : A blazing fast unit test framework powered by Vite
+- **React Hook Form**- Performant, flexible and extensible forms with easy-to-use validation.
+- **ESLint**: A linter for identifying and fixing problems in your code.
+- **husky** : Git hooks and commit linting to ensure use of descriptive and practical commit messages.
+- **Prettier** : An opinionated code formatter.
+- **Tailwind CSS** : A utility-first CSS framework packed with classes to build any web design imaginable.
 
 ### 3. Installation
 
@@ -170,9 +174,9 @@ This is the folder and file structure of the project.
 │   ├── vite-env.d.ts     # Vite-specific environment types
 ├── .dockerignore         # Specifies files and directories to ignore in the Docker build process
 ├── .env                  # Environment variables for the default environment
-├── .env.local            # Environment variables for development mode
+├── .env.dev              # Environment variables for development mode
 ├── .env.example          # Example of required environment variables
-├── .env.production       # Environment variables for production mode
+├── .env.prod             # Environment variables for production mode
 ├── .env.test             # Environment variables for testing
 ├── .gitignore            # Specifies which files and directories Git should ignore
 ├── .prettierrc.cjs       # Configuration for Prettier code formatter
@@ -200,6 +204,10 @@ These are the main installed packages.
 - [TypeScript](https://www.typescriptlang.org/)
 - [Vite](https://vite.dev/)
 - [React](https://react.dev/)
+
+#### Api Call
+
+- [Axios](https://axios-http.com/docs/intro)
 
 #### Routing
 
@@ -253,3 +261,9 @@ In the `package.json` file, you’ll find a set of scripts that automate common 
     "test": "vitest"
   },
 ```
+
+---
+
+###### In this template, you'll find sample components demonstrating how to use Axios for API calls, handle state with the Context API, and manage state with Redux. These examples are designed to help you understand how to implement these tools effectively.
+
+###### When starting a new project with this boilerplate, feel free to remove any unwanted components. However, we recommend keeping these samples until you have a solid understanding of their usage.
